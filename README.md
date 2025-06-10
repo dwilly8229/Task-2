@@ -13,38 +13,19 @@ Consortium Blockchain: (e.g., R3 Corda, Quorum, IBM Food Trust)
  Instructions:
 Create a comparison table or markdown sheet with the following columns for each platform:
 
----------------+----------------+-----------------+----------------------+
-**Blockchain   |  **Ethereum**  |  **Hyperledger  |  **IBM Food Trust**  |  
-Name**         |                |    Fabric**     |                      |
----------------+----------------+-----------------+----------------------+
-**Type**       |   Public       |    Private      |    Consortium        |
----------------+----------------+-----------------+----------------------+
-**Consensus    | Proof of Stake |    Pluggable    |     Hyperledger      |
-Mechanism      | (Ethereum 2.0) |    (kafka)      |    Fabric-based      |
-Used**         |                |                 |        (Raft)        |
----------------+----------------+-----------------+----------------------+
-**Permission   |  Opened        |  Permissioned   |    Permisssioned     |
-Model**        |                |                 |                      |
----------------+----------------+-----------------+----------------------+
-**Speed /      |  30-100 TPS    |  1,000– 3,000   |    1000-2000 TPS     |
-Throughput**   | in future aims |     TPS         |                      |
-               | to achieve 100k|                 |                      |
----------------+----------------+-----------------+----------------------+
-**Smart        |      Yes       |    Yes          |    Yes               |
-Contract       |    Solidity    |   GO, Java, or  | Javascript,Typscript,|
-Support**      |                |   Javascript    | Java, Go             |
----------------+=---------------+-----------------+----------------------+
-**Token        |   Native       |      Not        |       Not            |
-Support**      |                |     Native      |      Native          |
----------------+----------------+-----------------+----------------------+
-**Typical      |  Decentralized |   Enterprise    |  Food supply chain   |
-Use Case**     | App, NFTs, etc |  supply chain,  |     tracking         |
-               |                |   logistics     |                      |
----------------+----------------+-----------------+----------------------+
-**Notable      | Decentralized &|   Modular &     |    Real-time         |
-Technical      |  programmable  |  private data   |  traceability, data  |
-Feature**      |  with Layer 2  |   channels      |  immutability        |
----------------+----------------+-----------------+----------------------+
+## Blockchain Platform Comparison
+
+| Feature               | **Ethereum 2.0**            | **Hyperledger Fabric**        | **IBM Food Trust**                |
+|-----------------------|-----------------------------|--------------------------------|-----------------------------------|
+| **Type**              | Public                      | Private                        | Consortium                        |
+| **Consensus**         | Proof of Stake              | Pluggable (Kafka, RAFT)        | Hyperledger Fabric (RAFT)         |
+| **Permission Model**  | Open                        | Permissioned                   | Permissioned                      |
+| **Speed / Throughput**| 30–100 TPS (up to 100k with sharding) | 1,000–20,000+ TPS              | 1,000–2,000 TPS                   |
+| **Smart Contract Support** | Yes (Solidity)        | Yes (Go, Java, JavaScript)     | Yes (Go, Java, JavaScript)        |
+| **Token Support**     | Native (ERC-20, ERC-721)    | Custom tokens via chaincode   | Not designed for token use        |
+| **Typical Use Case**  | dApps, DeFi, NFTs           | Supply chain, banking, digital ID | Food supply chain tracking     |
+| **Notable Feature**   | Decentralized + Layer 2 scaling | Modular & enterprise-focused | Real-time traceability            |
+
 
 
 
